@@ -122,7 +122,7 @@ public class _4_ShareACandyWithAnIntent {
     public void share_intent_startactivity() throws Exception {
         assertTrue("The method startActivity() was not called.", called_startActivity_correctly);
     }
-    
+
     @Test
     public void createShareIntent_Exists() throws Exception {
         Method myMethod = null;
